@@ -1,4 +1,3 @@
-<!-- #region head -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,28 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     <title>By Bose</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
-<!-- #endregion -->
 
-<body id="home">
+<body>
     <header class="header">
         <div class="header__top">
             <a href="index.html">
-                <img src="./images/logo.png" alt="Bose logo" class="logo">
+                <img src="./images/logo-1x.png" srcset="./images/logo-1x.png 1x, ./images/logo-2x.png 2x"
+                    alt="Bose logo" class="logo">
             </a>
             <a href="#menu">
-                <img src="./images/icons/Icon-Burger-menu.png" alt="Burger menu">
+                <img src="./images/icons/icon-burger-menu.png" alt="Burger menu">
             </a>
         </div>
 
         <div class="header__bottom">
-            <img src="./images/Sound waves.png" alt="Sound waves">
-
             <h1 class="header__title">
                 The world shades.
                 <br>
@@ -38,9 +36,13 @@
 
     <div class="menu" id="menu">
         <div class="menu__top">
-            <img src="./images/logo.png" alt="Bose logo" class="logo">
             <a href="#home">
-                <img src="./images/icons/Icon-Close.png" alt="Close">
+                <img src="./images/logo-1x.png" srcset="./images/logo-1x.png 1x, ./images/logo-2x.png 2x"
+                    alt="Bose logo" class="logo">
+            </a>
+
+            <a href="#home">
+                <img src="./images/icons/icon-close.png" alt="Close">
             </a>
         </div>
 
@@ -59,8 +61,9 @@
             <div class="recommended__products">
                 <article class="product">
                     <div class="image-box">
-                        <img src="./images/products/Bose portable Smart speaker.png" alt="Bose portable Smart speaker"
-                            class="product__photo">
+                        <img src="./images/products/bose-portable-smart-speaker-1x.jpg"
+                            srcset="./images/products/bose-portable-smart-speaker-1x.jpg 1x, ./images/products/bose-portable-smart-speaker-2x.jpg 2x"
+                            alt="Bose portable Smart speaker" class="product__photo">
                     </div>
                     <div class="description">
                         <h3 class="product__title">Bose portable Smart speaker</h3>
@@ -71,7 +74,8 @@
 
                 <article class="product">
                     <div class="image-box">
-                        <img src="./images/products/SoundLink Flex Bluetooth speaker.png"
+                        <img src="./images/products/soundLink-Flex-bluetooth-speaker-1x.jpg"
+                            srcset="./images/products/soundLink-Flex-bluetooth-speaker-1x.jpg 1x, ./images/products/soundLink-Flex-bluetooth-speaker-2x.jpg 2x"
                             alt="SoundLink Flex Bluetooth speaker" class="product__photo">
                     </div>
                     <div class="description">
@@ -83,7 +87,8 @@
 
                 <article class="product">
                     <div class="image-box">
-                        <img src="./images/products/SoundLink Color Bluetooth speaker II.png"
+                        <img src="./images/products/soundLink-color-bluetooth-speaker-II-1x.jpg"
+                            srcset="./images/products/soundLink-color-bluetooth-speaker-II-1x.jpg 1x, ./images/products/soundLink-color-bluetooth-speaker-II-2x.jpg 2x"
                             alt="SoundLink Color Bluetooth speaker II" class="product__photo">
                     </div>
                     <div class="description">
@@ -100,27 +105,36 @@
 
             <article class="category">
                 <div class="category__photos">
-                    <img src="./images/categories/Headphones-earbuds-wide.png" alt="Headphones & earbuds"
-                        class="photo-wide">
-                    <img src="./images/categories/Headphones-earbuds-square.png" alt="Headphones & earbuds"
-                        class="photo-square">
+                    <img src="./images/categories/headphones-earbuds-wide-1x.jpg"
+                        srcset="./images/categories/headphones-earbuds-wide-1x.jpg 1x, ./images/categories/headphones-earbuds-wide-2x.jpg 2x"
+                        alt="Headphones & earbuds" class="photo-wide">
+                    <img src="./images/categories/headphones-earbuds-square-1x.jpg"
+                        srcset="./images/categories/headphones-earbuds-square-1x.jpg 1x, ./images/categories/headphones-earbuds-square-2x.jpg 2x"
+                        alt="Headphones & earbuds" class="photo-square">
                 </div>
                 <h3 class="category__title">Headphones & earbuds</h3>
             </article>
 
             <article class="category">
                 <div class="category__photos">
-                    <img src="./images/categories/Speakers-wide.png" alt="Speakers" class="photo-wide">
-                    <img src="./images/categories/Speakers-square.png" alt="Speakers" class="photo-square">
+                    <img src="./images/categories/speakers-wide-1x.jpg"
+                        srcset="./images/categories/speakers-wide-1x.jpg 1x, ./images/categories/speakers-wide-2x.jpg 2x"
+                        alt="Speakers" class="photo-wide">
+                    <img src="./images/categories/speakers-square-1x.jpg"
+                        srcset="./images/categories/speakers-square-1x.jpg 1x, ./images/categories/speakers-square-2x.jpg 2x"
+                        alt="Speakers" class="photo-square">
                 </div>
                 <h3 class="category__title">Speakers</h3>
             </article>
 
             <article class="category">
                 <div class="category__photos">
-                    <img src="./images/categories/Audio-sunglasses-square.png" alt="Audio sunglasses"
-                        class="photo-square">
-                    <img src="./images/categories/Audio-sunglasses-wide.png" alt="Audio sunglasses" class="photo-wide">
+                    <img src="./images/categories/audio-sunglasses-square-1x.jpg"
+                        srcset="./images/categories/audio-sunglasses-square-1x.jpg 1x, ./images/categories/audio-sunglasses-square-2x.jpg 2x"
+                        alt="Audio sunglasses" class="photo-square">
+                    <img src="./images/categories/audio-sunglasses-wide-1x.jpg"
+                        srcset="./images/categories/audio-sunglasses-wide-1x.jpg 1x, ./images/categories/audio-sunglasses-wide-2x.jpg 2x"
+                        alt="Audio sunglasses" class="photo-wide">
                 </div>
                 <h3 class="category__title">Audio sunglasses</h3>
             </article>
