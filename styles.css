@@ -43,6 +43,12 @@ body {
 .nav__link:hover {
   transform: scale(1.05);
 }
+.image-box {
+  padding: 15px;
+}
+.description {
+  padding: 15px;
+}
 
 @media (max-width: 1024px) {
   .header {
