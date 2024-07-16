@@ -436,12 +436,12 @@ body {
 /* #endregion */
 
 /* #region buttons */
-.button {
+.buttons {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.button:hover {
+.buttons:hover {
   transform: translateY(-5px);
   opacity: 0.8;
 }
